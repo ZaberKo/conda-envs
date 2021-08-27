@@ -1,0 +1,67 @@
+name: ray
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - jupyterlab
+  - pyyaml
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scikit-image
+  - pillow
+  - gym
+  - networkx
+  - pytorch
+  - torchvision
+  - torchaudio
+  - tensorboardx
+  - tensorflow
+  # dependencies of ray and rllib
+  - aiohttp-cors
+  - aioredis
+  - atari_py
+  - attrs
+  - blessings
+  - cachetools
+  - click
+  - colorful
+  - dm-tree
+  - filelock
+  - google-api-core
+  - google-auth
+  - googleapis-common-protos
+  - gpustat
+  - grpcio
+  - hiredis
+  - lz4
+  - msgpack-python
+  - nvidia-ml
+  - opencensus
+  - opencensus-context
+  - opencv
+  - packaging
+  - prometheus_client
+  - protobuf
+  - psutil
+  - pyasn1-modules
+  - pydantic
+  - pyglet
+  - redis-py
+  - six
+  - tabulate
+  - urllib3
+  - imageio
+  - cloudpickle
+  - pywavelets
+  - tifffile
+  - pip:
+    - ray[default]
+    - ray[rllib]
+
+
+  
