@@ -52,7 +52,6 @@ dependencies:
   - pydantic
   - pyglet
   - redis-py
-  - six
   - tabulate
   - urllib3
   - imageio

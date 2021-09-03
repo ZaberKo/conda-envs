@@ -17,10 +17,11 @@ dependencies:
   - pillow
   - gym
   - networkx
+  - cudatoolkit
+  - gputil
   - pytorch
   - torchvision
   - torchaudio
-  - cudatoolkit
   - tensorboardx
   - tensorflow
   # dependencies of ray and rllib
@@ -54,7 +55,6 @@ dependencies:
   - pydantic
   - pyglet
   - redis-py
-  - six
   - tabulate
   - urllib3
   - imageio
