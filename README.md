@@ -5,4 +5,4 @@ This project is mainly focused on ML-related environments. You can easily upload
 
 # List of Environments
 
-- rllib w/ pytorch + tensorflow [python3.9]
+- rllib w/ pytorch + tensorflow2 [python3.9]
