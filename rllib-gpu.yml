@@ -15,7 +15,7 @@ dependencies:
   - scikit-learn
   - scikit-image
   - pillow
-  - gym
+  - gym-all
   - networkx
   - cudatoolkit
   - gputil
