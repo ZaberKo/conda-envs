@@ -6,6 +6,9 @@ dependencies:
   - python=3.9
   - pip
   - jupyterlab
+  # vscode support
+  - autopep8
+  # -------
   - pyyaml
   - scipy
   - pandas

@@ -7,6 +7,9 @@ dependencies:
   - python=3.9
   - pip
   - jupyterlab
+  # vscode support
+  - autopep8
+  # -------
   - pyyaml
   - scipy
   - pandas
@@ -17,13 +20,13 @@ dependencies:
   - pillow
   - gym-all
   - networkx
-  - cudatoolkit
   - gputil
   - pytorch
   - torchvision
   - torchaudio
   - tensorboardx
   - tensorflow
+  - cudatoolkit
   # dependencies of ray and rllib
   - aiohttp-cors
   - aioredis
