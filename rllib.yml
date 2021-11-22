@@ -25,6 +25,7 @@ dependencies:
   - tensorboardx
   - tensorflow
   # dependencies of ray and rllib
+  - aiohttp
   - aiohttp-cors
   - aioredis
   - atari_py

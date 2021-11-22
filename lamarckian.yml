@@ -1,36 +1,72 @@
-name: ray
+name: lamarckian
 channels:
   - pytorch
   - nvidia
   - conda-forge
 dependencies:
-  - python=3.9
+  - python=3.8
   - pip
-  - jupyterlab
-  # vscode support
-  - autopep8
-  # -------
-  - pyyaml
+  - six
+  - pytest
+  - tqdm
+
+  - numpy
   - scipy
   - pandas
   - matplotlib
   - seaborn
+  
+  - pillow
+  - imageio
+  - imageio-ffmpeg
+  - imagecodecs
   - scikit-learn
   - scikit-image
-  - pillow
+
   - gym-all
-  - networkx
-  - gputil
+
   - pytorch
   - torchvision
-  - torchaudio
   - tensorboardx
+  # - cudatoolkit
+  - tensorboard
   - tensorflow
-  - cudatoolkit
+
+  - pyyaml
+  # - metayaml
+  - oyaml
+  - glom
+
+  #tools
+  - tenacity
+  - sortedcontainers
+  - recordtype
+  - deepmerge
+  # - pickle5
+
+  - pathspec
+  - psutil
+  - filelock
+  - humanfriendly
+  - termcolor
+  - port-for
+
+  - toolz
+  - inflection
+  # - pybenchmark
+  # - bocd
+  # - get-port
+
+  # communication
+  - msgpack-python
+  - msgpack-numpy
+  - pyarrow
+  - py-lz4framed
+  - pyzmq
   # dependencies of ray and rllib
-  - aiohttp
-  - aiohttp-cors
-  - aioredis
+  - aiohttp=3.7.4
+  - aiohttp-cors=0.7
+  - aioredis=1.3.1
   - atari_py
   - attrs
   - blessings
@@ -38,7 +74,7 @@ dependencies:
   - click
   - colorful
   - dm-tree
-  - filelock
+  # - filelock
   - google-api-core
   - google-auth
   - googleapis-common-protos
@@ -46,7 +82,6 @@ dependencies:
   - grpcio
   - hiredis
   - lz4
-  - msgpack-python
   - nvidia-ml
   - opencensus
   - opencensus-context
@@ -54,20 +89,18 @@ dependencies:
   - packaging
   - prometheus_client
   - protobuf
-  - psutil
   - pyasn1-modules
   - pydantic
   - pyglet
   - redis-py
   - tabulate
   - urllib3
-  - imageio
   - cloudpickle
   - pywavelets
   - tifffile
   - pip:
-    - ray[default]
-    - ray[rllib]
+    - metayaml
+    - pygame
+    - ray==1.2
 
 
-  
