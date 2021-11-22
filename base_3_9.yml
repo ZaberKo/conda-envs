@@ -1,0 +1,16 @@
+name: py3.9
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - jupyterlab
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pyyaml
+  - tqdm
+  - requests
+  - beautifulsoup4
+  # vscode support
+  - autopep8
