@@ -8,6 +8,9 @@ dependencies:
   - six
   - pytest
   - tqdm
+  - jupyterlab
+  # vscode support
+  - autopep8
 
   - numpy
   - scipy
@@ -28,11 +31,9 @@ dependencies:
   - torchvision
   - tensorboardx
   # - cudatoolkit
-  - tensorboard
-  - tensorflow
+
 
   - pyyaml
-  # - metayaml
   - oyaml
   - glom
 
@@ -41,6 +42,7 @@ dependencies:
   - sortedcontainers
   - recordtype
   - deepmerge
+  - xlsxwriter
   # - pickle5
 
   - pathspec
@@ -53,8 +55,6 @@ dependencies:
   - toolz
   - inflection
   # - pybenchmark
-  # - bocd
-  # - get-port
 
   # communication
   - msgpack-python
@@ -62,6 +62,7 @@ dependencies:
   - pyarrow
   - py-lz4framed
   - pyzmq
+  - pika
   # dependencies of ray and rllib
   - aiohttp=3.7.4
   - aiohttp-cors=0.7
@@ -73,7 +74,6 @@ dependencies:
   - click
   - colorful
   - dm-tree
-  # - filelock
   - google-api-core
   - google-auth
   - googleapis-common-protos
@@ -81,7 +81,7 @@ dependencies:
   - grpcio
   - hiredis
   - lz4
-  - nvidia-ml
+  # - nvidia-ml
   - opencensus
   - opencensus-context
   - opencv
@@ -99,7 +99,11 @@ dependencies:
   - tifffile
   - pip:
     - metayaml
+    - get-port
+    - bocd
     - pygame
+    # - PyQt5
     - ray==1.2
 
 
+# install dmaps at https://github.com/hsidky/dmaps
