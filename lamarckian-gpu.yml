@@ -30,9 +30,10 @@ dependencies:
 
   - pytorch
   - torchvision
+  - tensorboard
   - tensorboardx
   - cudatoolkit
-  - tensorboard
+
  
 
   - pyyaml
