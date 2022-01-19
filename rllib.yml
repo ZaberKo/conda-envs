@@ -12,6 +12,7 @@ dependencies:
   - autopep8
   # -------
   - pyyaml
+  - ruamel.yaml
   - scipy
   - pandas
   - matplotlib
