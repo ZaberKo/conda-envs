@@ -7,6 +7,13 @@ channels:
 
 dependencies:
   - python=3.9
+  - pip
+  - jupyterlab
+  - ipywidgets
+  # vscode support
+  - autopep8
+  - pylint
+  # horovod
   - ccache
   - cmake
   - cudatoolkit=11.3
@@ -17,7 +24,6 @@ dependencies:
   - mpi4py # installs cuda-aware openmpi
   - nccl
   - nvcc_linux-64
-  - pip
   - pytorch
   - tensorboard
   - torchaudio

@@ -15,3 +15,4 @@ dependencies:
   - beautifulsoup4
   # vscode support
   - autopep8
+  - pylint # lint tool for pylance

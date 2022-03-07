@@ -11,6 +11,8 @@ dependencies:
   - glom
   # vscode support
   - autopep8
+  - pylint
+  - ipywidgets
   # -------
   - pyyaml
   - ruamel.yaml
