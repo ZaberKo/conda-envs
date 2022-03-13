@@ -29,4 +29,4 @@ dependencies:
   - torchaudio
   - torchvision
   - pip:
-    - -r file:horovod_pytorch_requirements.txt
+    - -r horovod_pytorch_requirements.txt
