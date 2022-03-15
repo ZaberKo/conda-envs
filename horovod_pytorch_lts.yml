@@ -1,7 +1,7 @@
 name: horovod-pytorch
 
 channels:
-  - pytorch
+  - pytorch-lts
   - conda-forge
   - defaults
 
@@ -16,7 +16,7 @@ dependencies:
   # horovod
   - ccache
   - cmake
-  - cudatoolkit=11.3
+  - cudatoolkit=11.1
   - cudnn
   # - cupti
   - cxx-compiler
