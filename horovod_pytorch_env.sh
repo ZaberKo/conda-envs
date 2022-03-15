@@ -3,8 +3,8 @@
 set -exo pipefail
 
 
-conda_envfile="horovod_pytorch.yml"
-[ -v "$1" ] && conda_envfile="$1"
+conda_envfile=${1-"horovod_pytorch.yml"}
+
 
 # set relevant build variables for horovod
 export NCCL_HOME=$ENV_PREFIX
