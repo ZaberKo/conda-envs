@@ -1,0 +1,22 @@
+name: moo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - ipywidgets
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pyyaml
+  - tqdm
+  - requests
+  - beautifulsoup4
+  # vscode support
+  - autopep8
+  - pylint #
+  # pymoo
+  - autograd
+  - pip:
+    - pymoo
