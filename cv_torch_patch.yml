@@ -1,0 +1,13 @@
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - pyyaml
+  - scikit-image
+  - pillow
+  - easydict
+  - opencv
+  - timm
+  - pip:
+    - ptflops

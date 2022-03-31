@@ -1,0 +1,36 @@
+name: cv_torch
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - jupyterlab
+  - tqdm
+  - glom
+  # vscode support
+  - autopep8
+  - pylint
+  - ipywidgets
+  # -------
+  - pyyaml
+  - ruamel.yaml
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scikit-image
+  - pillow
+  - opencv
+  - networkx
+  - pytorch
+  - torchvision
+  - tensorboard
+  - tensorboardx
+  - timm
+  - easydict
+  - pip:
+    - ptflops
+  

@@ -1,5 +1,5 @@
 horovod
-jupyterlab-nvdashboard
+jupyterlab_nvdashboard
 jupyter-tensorboard
 
 # make sure horovod is re-compiled if environment is re-built
