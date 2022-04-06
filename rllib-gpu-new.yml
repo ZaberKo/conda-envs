@@ -1,0 +1,64 @@
+name: ray
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - jupyterlab
+  - tqdm
+  - glom
+  # vscode support
+  - autopep8
+  - pylint
+  - ipywidgets
+  # -------
+  - pyyaml
+  - ruamel.yaml
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scikit-image
+  - pillow
+  - networkx
+  - gputil
+  - pytorch
+  - torchvision
+  - torchaudio
+  - tensorboardx
+  - tensorflow
+  - cudatoolkit
+  # dependencies of ray and rllib
+  - attrs
+  - cachetools
+  - click
+  - dm-tree
+  - filelock
+  - google-auth
+  - grpcio
+  - lz4
+  - msgpack-python
+  - opencv
+  - packaging
+  - prometheus_client
+  - protobuf
+  - psutil
+  - pyasn1-modules
+  - redis-py
+  - tabulate
+  - urllib3
+  - imageio
+  - cloudpickle
+  - pywavelets
+  - tifffile
+  - pip:
+    - ray[rllib]
+    - gym[atari, accept-rom-license] # new for gym0.21+
+    # - ray[default]
+    
+
+
+  
