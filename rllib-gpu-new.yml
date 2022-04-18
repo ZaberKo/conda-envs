@@ -56,8 +56,7 @@ dependencies:
   - tifffile
   - pip:
     - prometheus_client==0.13.1 # pinned for ray 1.11.0
-    - ray[default]
-    - ray[rllib]
+    - ray[default,rllib]
     - gym[atari, accept-rom-license] # new for gym0.21+
     # - ray[default]
     

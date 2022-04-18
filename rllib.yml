@@ -68,9 +68,8 @@ dependencies:
   - pywavelets
   - tifffile
   - pip:
+    - ray[default,rllib]
     - gym[atari, accept-rom-license] # new for gym0.21+
-    - ray[default]
-    - ray[rllib]
 
 
   
