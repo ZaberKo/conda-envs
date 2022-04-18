@@ -22,7 +22,7 @@ dependencies:
   - scikit-learn
   - scikit-image
   - pillow
-  - gym-all
+  # - gym-all
   - networkx
   - pytorch
   - torchvision
@@ -33,9 +33,9 @@ dependencies:
   - aiohttp
   - aiohttp-cors
   - aioredis
-  - atari_py
+  # - atari_py
   - attrs
-  - blessings
+  - blessed
   - cachetools
   - click
   - colorful

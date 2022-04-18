@@ -37,6 +37,7 @@ dependencies:
   - aiohttp-cors
   - aioredis
   # - atari_py
+  - attrs
   - blessed
   - cachetools
   - click
@@ -70,7 +71,7 @@ dependencies:
   - pywavelets
   - tifffile
   - pip:
-    - gym[all, accept-rom-license] # new for gym0.21+
+    - gym[atari, accept-rom-license] # new for gym0.21+
     - ray[default]
     - ray[rllib]
 
