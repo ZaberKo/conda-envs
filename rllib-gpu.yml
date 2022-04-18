@@ -23,7 +23,7 @@ dependencies:
   - scikit-learn
   - scikit-image
   - pillow
-  - gym-all
+  # - gym-all
   - networkx
   - gputil
   - pytorch
@@ -36,9 +36,8 @@ dependencies:
   - aiohttp
   - aiohttp-cors
   - aioredis
-  - atari_py
-  - attrs
-  - blessings
+  # - atari_py
+  - blessed
   - cachetools
   - click
   - colorful
@@ -71,7 +70,7 @@ dependencies:
   - pywavelets
   - tifffile
   - pip:
-    - gym[atari, accept-rom-license] # new for gym0.21+
+    - gym[all, accept-rom-license] # new for gym0.21+
     - ray[default]
     - ray[rllib]
 
