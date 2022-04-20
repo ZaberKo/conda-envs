@@ -32,6 +32,7 @@ dependencies:
   - tensorflow
   - cudatoolkit
   - pip:
+    - ale-py < 0.7.5
     - ray[default,rllib]
     - gym[atari, accept-rom-license] # new for gym0.21+
 
