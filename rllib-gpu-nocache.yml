@@ -31,6 +31,9 @@ dependencies:
   - tensorboardx
   - tensorflow
   - cudatoolkit
+  # rllib dependencies
+  - pyglet
+  - ffmpeg>=5.0
   - pip:
     - ale-py < 0.7.5
     - ray[default,rllib]
