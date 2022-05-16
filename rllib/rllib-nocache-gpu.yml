@@ -1,4 +1,4 @@
-name: cv_torch
+name: ray
 channels:
   - pytorch
   - nvidia
@@ -13,6 +13,7 @@ dependencies:
   - autopep8
   - pylint
   - ipywidgets
+  # -------
   - pyyaml
   - ruamel.yaml
   - scipy
@@ -22,14 +23,22 @@ dependencies:
   - scikit-learn
   - scikit-image
   - pillow
-  - opencv
   - networkx
+  - gputil
+  - opencv
   - pytorch
   - torchvision
-  - tensorboard
+  - torchaudio
   - tensorboardx
-  - timm
-  - easydict
+  - tensorflow
+  - cudatoolkit
+  # rllib dependencies
+  - pyglet
+  - ffmpeg
   - pip:
-    - ptflops
+    - ale-py < 0.7.5 # for ray 1.2.0
+    - ray[default,rllib]
+    - gym[atari, accept-rom-license] # new for gym0.21+
+
+
   

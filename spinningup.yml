@@ -1,10 +1,10 @@
-name: ray
+name: spinningup-rl
 channels:
   - pytorch
   - nvidia
   - conda-forge
 dependencies:
-  - python=3.9
+  - python=3.10
   - pip
   - jupyterlab
   - tqdm
@@ -23,21 +23,15 @@ dependencies:
   - scikit-learn
   - scikit-image
   - pillow
+  - opencv
   - networkx
-  - gputil
   - pytorch
   - torchvision
-  - torchaudio
+  - tensorboard
   - tensorboardx
-  - tensorflow
-  - cudatoolkit
-  # rllib dependencies
-  - pyglet
-  - ffmpeg>=5.0
+  - mpi4py
+  - joblib
+  - pytest
+  - psutil
   - pip:
-    - ale-py < 0.7.5
-    - ray[default,rllib]
-    - gym[atari, accept-rom-license] # new for gym0.21+
-
-
-  
+    - gym[atari, accept-rom-license]
