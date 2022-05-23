@@ -32,4 +32,6 @@ dependencies:
   - tensorflow
   - cudatoolkit
   - pip:
+    - ale-py < 0.7.5
     - stable-baselines3[extra]
+    - sb3-contrib
