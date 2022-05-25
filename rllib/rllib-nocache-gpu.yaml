@@ -36,7 +36,7 @@ dependencies:
   - pyglet
   - ffmpeg
   - pip:
-    - ale-py
+    - ale-py < 0.7.5 # for ray 1.2.0
     - ray[default,rllib]
     - gym[atari, accept-rom-license] # new for gym0.21+
 
