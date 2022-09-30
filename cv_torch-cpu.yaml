@@ -1,7 +1,6 @@
 name: cv_torch
 channels:
   - pytorch
-  - nvidia
   - conda-forge
 dependencies:
   - python=3.9
