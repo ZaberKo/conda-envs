@@ -30,7 +30,7 @@ dependencies:
   - torchaudio
   - tensorboardx
   - tensorflow
-  - cudatoolkit
+  - cudatoolkit=11.6
   # rllib dependencies
   - gputil
   - pyglet
