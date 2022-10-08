@@ -1,4 +1,4 @@
-name: spinningup-rl
+name: spinup
 channels:
   - pytorch
   - nvidia
@@ -34,4 +34,4 @@ dependencies:
   - pytest
   - psutil
   - pip:
-    - gym[atari, accept-rom-license]
+    - gym[atari, box2d, classic_control, accept-rom-license]
