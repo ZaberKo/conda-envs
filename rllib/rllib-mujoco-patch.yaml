@@ -5,4 +5,4 @@ dependencies:
   - cython
   - pyglfw
   - pip:
-    - gym[mujoco]
+    - gym[mujoco] < 0.24

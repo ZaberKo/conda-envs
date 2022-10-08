@@ -4,7 +4,7 @@ channels:
   - nvidia
   - conda-forge
 dependencies:
-  - python=3.10
+  - python=3.7
   - pip
   - jupyterlab
   - tqdm
@@ -34,4 +34,5 @@ dependencies:
   - pytest
   - psutil
   - pip:
-    - gym[atari, box2d, classic_control, accept-rom-license]
+    - tensorflow==1.15
+    - gym[atari, box2d, classic_control, accept-rom-license] < 0.24
