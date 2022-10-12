@@ -35,6 +35,10 @@ dependencies:
   # rllib dependencies
   - pyglet
   - ffmpeg
+  # mujoco dependencies
+  - lockfile
+  - cython
+  - pyglfw
   - pip:
     # - ale-py < 0.7.5  # for ray 1.2.0
     - ray[default,rllib]
