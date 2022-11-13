@@ -1,7 +1,6 @@
 name: stable-baseline
 channels:
   - pytorch
-  - nvidia
   - conda-forge
 dependencies:
   - python=3.9
@@ -29,9 +28,9 @@ dependencies:
   - torchvision
   # - torchaudio
   # - tensorboardx
-  - tensorflow
+  # - tensorflow
   # - cudatoolkit
   - pip:
-    - ale-py < 0.7.5
+    # - ale-py < 0.7.5
     - stable-baselines3[extra]
     - sb3-contrib
