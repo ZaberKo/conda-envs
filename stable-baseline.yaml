@@ -27,6 +27,7 @@ dependencies:
   - opencv
   - pytorch
   - torchvision
+  - tensorboard
   # - torchaudio
   # - tensorboardx
   # - tensorflow
@@ -35,3 +36,5 @@ dependencies:
     # - ale-py < 0.7.5
     - stable-baselines3[extra]
     - sb3-contrib
+    - rliable
+    - rl_zoo3[plots]
