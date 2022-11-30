@@ -1,0 +1,49 @@
+name: rllib
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - jupyterlab
+  - tqdm
+  - glom
+  # vscode support
+  - autopep8
+  - pylint
+  - ipywidgets
+  # -------
+  - pyyaml
+  - ruamel.yaml
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scikit-image
+  - pillow
+  - networkx
+  - opencv
+  - pytorch
+  - torchvision
+  - torchaudio
+  - tensorboardx
+  - tensorflow
+  - cudatoolkit=11.6
+  # rllib dependencies
+  - gputil
+  - pyglet
+  - ffmpeg
+  # mujoco dependencies
+  - lockfile
+  - cython
+  - pyglfw
+  - pip:
+    # - ale-py < 0.7.5 # for ray 1.2.0
+    - ray[default,rllib] == 2.0.1
+    - gym[atari, accept-rom-license] # new for gym0.21+.
+    # gym[mujoco] should be manually installed
+
+
+  
