@@ -1,4 +1,4 @@
-name: rllib
+name: rllib201
 channels:
   - pytorch
   - nvidia
