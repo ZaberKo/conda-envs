@@ -25,6 +25,7 @@ dependencies:
   - networkx
   - pytorch
   - torchvision
+  - torchaudio
   - tensorboard
   - tensorboardx
   - timm
