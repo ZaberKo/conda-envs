@@ -25,12 +25,12 @@ dependencies:
   - pillow
   - networkx
   - opencv
-  - pytorch
+  - pytorch-cuda=11.6
   - torchvision
   - torchaudio
   - tensorboardx
   - tensorflow
-  - cudatoolkit=11.6
+  # - cudatoolkit=11.6
   # rllib dependencies
   - gputil
   - pyglet
