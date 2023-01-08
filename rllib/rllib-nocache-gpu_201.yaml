@@ -25,9 +25,10 @@ dependencies:
   - pillow
   - networkx
   - opencv
-  - pytorch-cuda=11.6
+  - pytorch
   - torchvision
   - torchaudio
+  - pytorch-cuda=11.6
   - tensorboardx
   - tensorflow
   # - cudatoolkit=11.6
@@ -41,7 +42,7 @@ dependencies:
   - pyglfw
   - pip:
     # - ale-py < 0.7.5 # for ray 1.2.0
-    - ray[default,rllib] == 2.0.1
+    - ray[default,rllib]==2.0.1
     - gym[atari,accept-rom-license] # new for gym0.21+.
     # gym[mujoco] should be manually installed
 

@@ -25,9 +25,10 @@ dependencies:
   - pillow
   - networkx
   - opencv
-  - pytorch-cuda=11.6
+  - pytorch
   - torchvision
   - torchaudio
+  - pytorch-cuda=11.7
   - tensorboardx
   - tensorflow
   # - cudatoolkit=11.6
