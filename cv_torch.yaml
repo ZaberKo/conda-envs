@@ -30,7 +30,7 @@ dependencies:
   - pytorch
   - torchvision
   - torchaudio
-  - pytorch-cuda=11.6
+  - pytorch-cuda=11.7
   - tensorboard
   - tensorboardx
   - timm
