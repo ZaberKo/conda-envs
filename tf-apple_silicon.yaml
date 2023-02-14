@@ -1,6 +1,6 @@
-name: cv_torch
+name: tf2
 channels:
-  - pytorch
+  - apple
   - conda-forge
 dependencies:
   - python=3.10
@@ -22,13 +22,11 @@ dependencies:
   - pillow
   - opencv
   - networkx
-  - pytorch
-  - torchvision
-  - torchaudio
+  - tensorflow-deps
   - tensorboard
   - tensorboardx
-  - timm
   - easydict
   - pip:
-    - ptflops
+    - tensorflow-macos
+    - tensorflow-metal
   

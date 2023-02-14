@@ -1,6 +1,7 @@
 name: py3.10
 channels:
   - conda-forge
+  - plotly
 dependencies:
   - python=3.10
   - jupyterlab
@@ -9,6 +10,8 @@ dependencies:
   - pandas
   - matplotlib
   - seaborn
+  - plotly
+  - jupyter-dash
   - pyyaml
   - ruamel.yaml
   - orjson
