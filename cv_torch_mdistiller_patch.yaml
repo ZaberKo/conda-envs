@@ -4,5 +4,6 @@ dependencies:
   - pip
   - wandb
   - yacs
+  - ray-core
   - pip:
     - tensorboard_logger
