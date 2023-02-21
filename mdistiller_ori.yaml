@@ -5,12 +5,20 @@ channels:
 dependencies:
   - python=3.6
   - pip
-  - ipython
+  - jupyterlab
+  - tqdm
+  # vscode support
+  - autopep8
+  - pylint
+  - ipywidgets
+  # -------
   - wandb
   - yacs
   - pytorch==1.9.1
   - torchvision==0.10.1
   - torchaudio==0.9.1
   - cudatoolkit=11.3
+  - tensorboard
+  - tensorboardx
   - pip:
     - tensorboard_logger
