@@ -1,0 +1,16 @@
+name: mdistiller
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip
+  - ipython
+  - wandb
+  - yacs
+  - pytorch==1.9.1
+  - torchvision==0.10.1
+  - torchaudio==0.9.1
+  - cudatoolkit=11.3
+  - pip:
+    - tensorboard_logger
