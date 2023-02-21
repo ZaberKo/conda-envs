@@ -1,6 +1,5 @@
 name: mdistiller2
 channels:
-  - pytorch
   - conda-forge
 dependencies:
   - python=3.6
@@ -14,10 +13,6 @@ dependencies:
   # -------
   - wandb
   - yacs
-  - pytorch::pytorch==1.9.1
-  - pytorch::torchvision==0.10.1
-  - pytorch::torchaudio==0.9.1
-  - pytorch::cudatoolkit=11.3
   - tensorboard
   - tensorboardx
   - pip:
