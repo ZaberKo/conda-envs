@@ -29,7 +29,6 @@ dependencies:
   # - cudatoolkit=11.6
   - pytorch
   - torchvision
-  - torchaudio
   - pytorch-cuda=11.7
   - tensorboard
   - tensorboardx
