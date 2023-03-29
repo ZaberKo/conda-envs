@@ -21,7 +21,6 @@ dependencies:
   - pillow
   - pytorch
   - torchvision
-  - torchaudio
   - tensorboardx
   - pip:
     - ray[default,rllib]
