@@ -22,8 +22,11 @@ dependencies:
   - pytorch
   - torchvision
   - tensorboardx
+  # mujoco deps
+  - pyglfw
   - pip:
     - ray[default,rllib]
+    - gymnasium[mujoco]
     - tensorflow-macos
     - tensorflow-metal
 

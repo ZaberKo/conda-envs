@@ -26,6 +26,8 @@ dependencies:
   - pytorch
   - torchvision
   - tensorboardx
+  # mujoco deps
+  - pyglfw
   - pip:
     - ray[rllib]
     - tensorflow
