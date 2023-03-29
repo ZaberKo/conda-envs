@@ -1,7 +1,6 @@
 name: rllib
 channels:
   - pytorch
-  # - nvidia
   - conda-forge
 dependencies:
   - python=3.10
@@ -19,28 +18,15 @@ dependencies:
   - pandas
   - matplotlib
   - seaborn
-  - scikit-learn
-  - scikit-image
   - pillow
-  - networkx
-  - opencv
   - pytorch
   - torchvision
   - torchaudio
-  - tensorboard
   - tensorboardx
-  # - tensorflow
-  # rllib dependencies
-  - pyglet
-  - ffmpeg
-  - grpcio
-  # mujoco dependencies
-  - lockfile
-  - cython
-  - pyglfw
   - pip:
     - ray[default,rllib]
-    # - gym[atari,accept-rom-license] # new for gym0.21+
+    - tensorflow-macos
+    - tensorflow-metal
 
 
   

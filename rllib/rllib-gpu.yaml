@@ -4,11 +4,10 @@ channels:
   - nvidia
   - conda-forge
 dependencies:
-  - python=3.9
+  - python=3.10
   - pip
   - jupyterlab
   - tqdm
-  - glom
   # vscode support
   - autopep8
   - pylint
@@ -20,31 +19,20 @@ dependencies:
   - pandas
   - matplotlib
   - seaborn
-  - scikit-learn
-  - scikit-image
+  # - scikit-learn
+  # - scikit-image
   - pillow
-  - networkx
-  - opencv
+  # - networkx
+  # - opencv
   - pytorch
   - torchvision
-  - torchaudio
-  - pytorch-cuda=11.7
+  - pytorch-cuda=11.8
   - tensorboardx
-  - tensorflow
-  # - cudatoolkit=11.6
   # rllib dependencies
   - gputil
-  - pyglet
-  - ffmpeg
-  # mujoco dependencies
-  - lockfile
-  - cython
-  - pyglfw
   - pip:
-    # - ale-py < 0.7.5 # for ray 1.2.0
-    - ray[default,rllib]
-    - gym[atari,accept-rom-license] # new for gym0.21+.
-    # gym[mujoco] should be manually installed
+    - ray[rllib]
+    - tensorflow # inconsistent cuda requirement with pytorch by conda installing
 
 
   
