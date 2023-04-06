@@ -14,11 +14,12 @@ dependencies:
   # -------
   - pyyaml
   - ruamel.yaml
+  - orjson
   - scipy
   - pandas
   - matplotlib
   - seaborn
-  - pillow
+  - wandb
   - pytorch
   - torchvision
   - tensorboardx

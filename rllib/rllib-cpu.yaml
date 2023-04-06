@@ -14,15 +14,12 @@ dependencies:
   # -------
   - pyyaml
   - ruamel.yaml
+  - orjson
   - scipy
   - pandas
   - matplotlib
   - seaborn
-  # - scikit-learn
-  # - scikit-image
-  - pillow
-  # - networkx
-  # - opencv
+  - wandb
   - pytorch
   - torchvision
   - tensorboardx
@@ -30,6 +27,7 @@ dependencies:
   - pyglfw
   - pip:
     - ray[rllib]
+    - gymnasium[mujoco]
     - tensorflow
 
 
