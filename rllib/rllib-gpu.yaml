@@ -24,7 +24,6 @@ dependencies:
   - pytorch
   - torchvision
   - pytorch-cuda=11.8
-  - tensorboardx
   # rllib deps
   - gputil
   # mujoco deps

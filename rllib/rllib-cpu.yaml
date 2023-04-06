@@ -22,7 +22,6 @@ dependencies:
   - wandb
   - pytorch
   - torchvision
-  - tensorboardx
   # mujoco deps
   - pyglfw
   - pip:
