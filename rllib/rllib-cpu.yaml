@@ -25,7 +25,7 @@ dependencies:
   # mujoco deps
   - pyglfw
   - pip:
-    - ray[rllib]
+    - ray[default,rllib]
     - gymnasium[mujoco]
     - tensorflow
 
