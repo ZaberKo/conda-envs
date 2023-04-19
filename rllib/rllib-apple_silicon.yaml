@@ -22,6 +22,8 @@ dependencies:
   - wandb
   - pytorch
   - torchvision
+  # ray deps for apple silicon
+  - grpcio=1.43.0
   # mujoco deps
   - pyglfw
   - pip:
