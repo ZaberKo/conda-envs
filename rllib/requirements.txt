@@ -1,2 +1,2 @@
-ray[default,rllib]
+ray[rllib]
 gymnasium[mujoco]
