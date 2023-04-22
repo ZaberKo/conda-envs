@@ -16,6 +16,7 @@ dependencies:
   - pyyaml
   - ruamel.yaml
   - orjson
+  - numpy
   - scipy
   - pandas
   - matplotlib
@@ -29,9 +30,7 @@ dependencies:
   # mujoco deps
   - pyglfw
   - pip:
-    - ray[default,rllib]
-    - gymnasium[mujoco]
-    - tensorflow # inconsistent cuda requirement with pytorch by conda installing
+    - -r requirements.txt
 
 
   
