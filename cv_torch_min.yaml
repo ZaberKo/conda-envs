@@ -1,0 +1,33 @@
+name: cv_torch
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - jupyterlab
+  - tqdm
+  # vscode support
+  - autopep8
+  - pylint
+  - ipywidgets
+  # -------
+  - pyyaml
+  - ruamel.yaml
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pillow
+  - pytorch
+  - torchvision
+  - pytorch-cuda=11.8
+  - tensorboard
+  - tensorboardx
+  - timm
+  - easydict
+  - pip:
+    - ptflops
+    - koila
+  
