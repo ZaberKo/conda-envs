@@ -26,6 +26,7 @@ dependencies:
   - opencv
   - networkx
   - gputil
+  - llvm-openmp<16 # fix for pytorch#99625
   - pytorch==1.13.1
   - torchvision==0.14.1
   - pytorch-cuda=11.7

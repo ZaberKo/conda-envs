@@ -22,6 +22,7 @@ dependencies:
   - matplotlib
   - seaborn
   - wandb
+  - llvm-openmp<16 # fix for pytorch#99625
   - pytorch
   - torchvision
   - pytorch-cuda=11.8
