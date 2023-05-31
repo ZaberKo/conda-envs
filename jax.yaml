@@ -1,0 +1,28 @@
+name: jax
+channels:
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab
+  - tqdm
+  # vscode support
+  - autopep8
+  - pylint
+  - ipywidgets
+  # -------
+  - pyyaml
+  - ruamel.yaml
+  - orjson
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - wandb
+  - hydra-core
+  # jax
+  - jaxlib=*=*cuda*
+  - jax
+  - cuda-nvcc
