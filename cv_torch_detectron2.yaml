@@ -1,0 +1,15 @@
+channels:
+  - nvidia
+  - conda-forge
+variables:
+  CUDA_HOME: $CONDA_PREFIX
+dependencies:
+  - yacs
+  - hydra-core
+  - tqdm
+  - pillow
+  - tensorboard
+  - pycocotools
+  - cuda-nvcc=11.7
+  - pip:
+    - git+https://github.com/facebookresearch/detectron2.git
