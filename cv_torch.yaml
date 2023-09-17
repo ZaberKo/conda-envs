@@ -27,9 +27,9 @@ dependencies:
   - networkx
   - gputil
   - llvm-openmp<16 # fix for pytorch#99625
-  - pytorch
-  - torchvision
-  - pytorch-cuda=11.8
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::pytorch-cuda=11.8
   - tensorboard
   - tensorboardx
   - timm

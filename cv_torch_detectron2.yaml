@@ -1,5 +1,5 @@
 channels:
-  - nvidia
+  - nvidia/label/cuda-11.7.1
   - conda-forge
 variables:
   CUDA_HOME: $CONDA_PREFIX
@@ -10,6 +10,6 @@ dependencies:
   - pillow
   - tensorboard
   - pycocotools
-  - cuda-nvcc=11.7
+  - nvidia/label/cuda-11.7.1::cuda
   - pip:
     - git+https://github.com/facebookresearch/detectron2.git
