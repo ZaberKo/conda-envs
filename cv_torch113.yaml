@@ -1,4 +1,4 @@
-name: cv_torch131
+name: cv_torch113
 channels:
   - pytorch
   - nvidia
