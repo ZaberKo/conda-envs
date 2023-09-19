@@ -3,7 +3,7 @@ channels:
   - pytorch
   - conda-forge
 dependencies:
-  - python=3.10
+  - python=3.11
   - pip
   - jupyterlab
   - tqdm
@@ -11,6 +11,7 @@ dependencies:
   - autopep8
   - pylint
   - ipywidgets
+  # -------
   - pyyaml
   - ruamel.yaml
   - scipy
@@ -22,9 +23,8 @@ dependencies:
   - pillow
   - opencv
   - networkx
-  - pytorch
-  - torchvision
-  - torchaudio
+  - pytorch::pytorch
+  - pytorch::torchvision
   - tensorboard
   - tensorboardx
   - timm
