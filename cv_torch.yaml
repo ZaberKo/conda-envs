@@ -8,7 +8,6 @@ dependencies:
   - pip
   - jupyterlab
   - tqdm
-  - glom
   # vscode support
   - autopep8
   - pylint
