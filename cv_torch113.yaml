@@ -6,7 +6,8 @@ channels:
 dependencies:
   - python=3.10
   - pip
-  - jupyterlab
+  # - jupyterlab
+  - ipykernel
   - tqdm
   # vscode support
   - autopep8
