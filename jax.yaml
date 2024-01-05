@@ -25,4 +25,4 @@ dependencies:
   # jax
   - jaxlib=*=*cuda*
   - jax
-  - cuda-nvcc
+  - nvidia::cuda-nvcc
