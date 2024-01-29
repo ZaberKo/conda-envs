@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+dependencies:
+  - brax
+  - pip:
+    - jumanji
+    - pgx
+    - jaxmarl
+    - gymnax
