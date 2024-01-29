@@ -1,0 +1,17 @@
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  # FreeAT
+  - numpy
+  - pyyaml
+  - easydict
+  # robust-principle
+  - timm
+  - wandb
+  - hydra-core
+  - pip:
+    # - git+https://github.com/fra31/auto-attack # use robustbench's AA instead
+    - git+https://github.com/RobustBench/robustbench.git
+    # - advertorch
+    - ptflops
