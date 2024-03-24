@@ -1,9 +1,9 @@
-name: jax
+name: jaxrl
 channels:
   - conda-forge
   - nvidia/label/cuda-11.8.0
 dependencies:
-  - python=3.10 # limited by gym 0.26.1
+  - python=3.10
   - pip
   - jupyterlab
   - tqdm
@@ -28,3 +28,10 @@ dependencies:
   - jax
   - flax
   - optax
+  # - distrax # prob lib (installed by pip)
+  - brax
+  - pip:
+    - jumanji
+    - pgx
+    - jaxmarl
+    - gymnax

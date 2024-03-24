@@ -14,8 +14,9 @@ dependencies:
   - seaborn
   - pillow
   - opencv
-  - scikit-learn
-  - scikit-image
+  - plotly::plotly
+  - python-kaleido
+  # - jupyter-dash
   - pyyaml
   - ruamel.yaml
   - orjson
