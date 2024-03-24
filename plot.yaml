@@ -2,6 +2,8 @@ name: plot
 channels:
   - conda-forge
   - plotly
+  - pyviz
+  - bokeh
 dependencies:
   - python=3.11
   - jupyterlab
@@ -12,12 +14,18 @@ dependencies:
   - seaborn
   - pillow
   - opencv
-  - plotly
-  - jupyter-dash
+  - scikit-learn
+  - scikit-image
   - pyyaml
   - ruamel.yaml
   - orjson
   - tqdm
+  - networkx
+  - datashader
+  - pyviz::holoviews
+  - bokeh::bokeh
+  - plotly::plotly
+  - umap-learn
   # vscode support
   - autopep8
   - pylint # lint tool for pylance
