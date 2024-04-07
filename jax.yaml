@@ -1,7 +1,7 @@
 name: jax
 channels:
   - conda-forge
-  - nvidia/label/cuda-11.8.0
+  # - nvidia/label/cuda-12.1.0
 dependencies:
   - python=3.10 # limited by gym 0.26.1
   - pip
@@ -23,10 +23,9 @@ dependencies:
   - wandb
   - hydra-core
   # jax
-  - nvidia/label/cuda-11.8.0::cuda-nvcc
-  - jaxlib=*=*cuda118*
-  - jax
-  - flax
-  - optax
   - pip:
+    - jax[cuda12] -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+    - flax
+    - optax
+    - distrax
     - orbax-checkpoint

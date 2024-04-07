@@ -1,5 +1,0 @@
-channels:
-  - conda-forge
-dependencies:
-  - pip:
-    - git+https://github.com/instadeepai/Mava.git@0.1.3
