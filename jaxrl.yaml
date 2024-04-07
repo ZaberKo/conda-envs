@@ -31,6 +31,7 @@ dependencies:
   # - distrax # prob lib (installed by pip)
   - brax
   - pip:
+    - orbax-checkpoint
     - jumanji
     - pgx
     - jaxmarl

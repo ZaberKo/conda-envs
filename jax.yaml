@@ -28,3 +28,5 @@ dependencies:
   - jax
   - flax
   - optax
+  - pip:
+    - orbax-checkpoint
