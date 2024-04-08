@@ -1,0 +1,9 @@
+# Tips: start from cv_torch.yaml
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - pip:
+    - stable-baselines3[extra]
+    - gymnasium[all]
+    - pettingzoo[all]
