@@ -13,15 +13,15 @@ dependencies:
   - ipywidgets
   # -------
   - pyyaml
-  - ruamel.yaml
-  - orjson
+  # - ruamel.yaml
+  # - orjson
   - scipy
   - pandas
   - matplotlib
   - seaborn
   - wandb
-  - pytorch
-  - torchvision
+  - pytorch::pytorch
+  - pytorch::torchvision
   # mujoco deps
   - pyglfw
   - pip:
