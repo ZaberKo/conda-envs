@@ -14,7 +14,6 @@ dependencies:
   - seaborn
   - pillow
   - opencv
-  - plotly::plotly
   - python-kaleido
   # - jupyter-dash
   - pyyaml

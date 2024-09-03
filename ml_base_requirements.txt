@@ -1,0 +1,10 @@
+jupyterlab
+ipywidgets
+tqdm
+PyYAML
+scipy
+pandas
+pillow
+opencv-python
+matplotlib
+seaborn

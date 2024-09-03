@@ -1,0 +1,7 @@
+-r ml_base_requirements.txt
+networkx[default]
+umap-learn
+plotly
+kaleido
+datashader
+bokeh
