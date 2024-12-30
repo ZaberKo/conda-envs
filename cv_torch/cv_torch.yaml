@@ -28,7 +28,7 @@ dependencies:
   - llvm-openmp<16 # fix for pytorch#99625
   - pytorch::pytorch
   - pytorch::torchvision
-  - pytorch::pytorch-cuda=12.1
+  - pytorch::pytorch-cuda=12.4
   - tensorboard
   - tensorboardx
   - timm
@@ -36,5 +36,4 @@ dependencies:
   - pip:
     - ptflops
     - koila
-    - nvitop
   
