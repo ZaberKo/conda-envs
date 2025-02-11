@@ -33,5 +33,4 @@ dependencies:
   - pip:
     - ptflops
     - koila
-    - nvitop
   

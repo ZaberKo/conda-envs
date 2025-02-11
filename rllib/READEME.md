@@ -1,11 +1,12 @@
 # Instruction
 
-Install and upgrade:
+Install:
+
 ```bash
-mamba env create -f rllib/rllib-nocache-gpu.yaml --force
+mamba create -n rllib python=3.9
+mamba activate rllib
+pip install -r requirements.txt
 ```
 
-(Optional) Post install for mujoco:
-```bash
-mamba env update -f rllib/rllib-mujoco-patch.yaml
-```
+
+
