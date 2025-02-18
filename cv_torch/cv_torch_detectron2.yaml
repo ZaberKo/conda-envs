@@ -1,8 +1,5 @@
 channels:
-  - nvidia/label/cuda-11.7.1
   - conda-forge
-# variables:
-#   CUDA_HOME: $CONDA_PREFIX
 dependencies:
   - yacs
   - hydra-core
@@ -10,7 +7,6 @@ dependencies:
   - pillow
   - tensorboard
   - pycocotools
-  - cuda
   - pip:
-    - git+https://github.com/facebookresearch/detectron2.git@80307d2d5e06f06a8a677cc2653f23a4c56402ac
+    - git+https://github.com/facebookresearch/detectron2.git
     - --no-binary=detectron2

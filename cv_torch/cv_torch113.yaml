@@ -30,7 +30,7 @@ dependencies:
   - tensorboard
   - tensorboardx
   - timm
-  - pip:
-    - ptflops
-    - koila
+  # - pip:
+  #   - ptflops
+  #   - koila
   
