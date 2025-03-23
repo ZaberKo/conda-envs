@@ -22,10 +22,7 @@ dependencies:
   - llvm-openmp<16 # fix for pytorch#99625
   - pytorch::pytorch
   - pytorch::torchvision
-  - pytorch::pytorch-cuda=11.8
+  - pytorch::pytorch-cuda=12.4
   - tensorboardx
   - easydict
-  - pip:
-    - ptflops
-    - koila
   
