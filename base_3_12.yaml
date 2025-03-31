@@ -1,8 +1,8 @@
-name: py3.11
+name: py3.12
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
+  - python=3.12
   - jupyterlab
   - ipywidgets
   - scipy

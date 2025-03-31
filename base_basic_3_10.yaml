@@ -4,6 +4,3 @@ channels:
 dependencies:
   - python=3.10
   - pip
-  # vscode support
-  - autopep8
-  - pylint # lint tool for pylance
