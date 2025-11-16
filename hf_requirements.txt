@@ -6,3 +6,4 @@ accelerate
 torch
 torchvision
 jupyterlab
+ipywidgets
