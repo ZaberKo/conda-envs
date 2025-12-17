@@ -3,7 +3,4 @@ datasets
 evaluate
 accelerate
 
-torch
-torchvision
-jupyterlab
-ipywidgets
+-r torch_requirements.txt

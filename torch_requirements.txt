@@ -1,0 +1,4 @@
+torch
+torchvision
+
+-r ml_base_requirements.txt
