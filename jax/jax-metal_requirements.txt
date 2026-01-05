@@ -1,0 +1,4 @@
+jax-metal
+optax
+distrax
+orbax-checkpoint
