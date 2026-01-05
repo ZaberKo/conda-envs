@@ -1,0 +1,2 @@
+vllm
+-r hf_requirements.txt

@@ -1,0 +1,4 @@
+vllm
+trl
+deepspeed
+-r hf_requirements.txt
