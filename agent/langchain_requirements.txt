@@ -1,0 +1,7 @@
+jupyterlab
+ipywidgets
+pydantic
+
+langchain
+langchain-openai
+langchain
