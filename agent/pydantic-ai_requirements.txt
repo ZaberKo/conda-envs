@@ -1,0 +1,5 @@
+jupyterlab
+ipywidgets
+python-dotenv
+pydantic
+pydantic-ai
